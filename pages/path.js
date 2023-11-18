@@ -2,19 +2,18 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { GoogleCalender } from '@/components/googleCalendertask'
 import { Calender } from '@/components/Calender'
+import { Path } from '@/components/routing'
 import { Week } from '@/components/week'
-import { MainComponent } from '@/components/main'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Routing() {
   return (
    <>
-   {/* {<Week/>} */}
-   {/* <Calender/> */}
-   {/* <GoogleCalender/> */}
-   <MainComponent />
+   
+   <Path/>
+
    </>
   )
 }
